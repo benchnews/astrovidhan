@@ -1,0 +1,158 @@
+/* Reset & Base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url('b.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color:palegoldenrod;
+    text-align: center;
+    min-height: 100vh;
+    padding-bottom: 60px;
+    backdrop-filter: blur(2px);
+  }
+  
+  /* Header */
+  header {
+    padding: 30px 20px 10px;
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(6px);
+  }
+  
+  header img {
+    width: 70px;
+    height: 70px;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-top: 10px;
+    color: #ffc107;
+    text-shadow: 2px 2px #00000055;
+  }
+  
+  /* About Section */
+  .about-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .about-section img {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    border: 5px solid yellowgreen;
+    object-fit: cover;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+    margin: 20px;
+  }
+  
+  .about-text {
+    max-width: 550px;
+    text-align: left;
+    margin: 20px;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    background: rgba(0, 0, 0, 0.399);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  /* .about-text strong {
+    color: #00e5ff;
+  } */
+  
+  /* Headings & Sections */
+  h2 {
+    font-size: 2rem;
+    color: yellowgreen;
+    margin-top: 40px;
+    text-shadow: 1px 1px #00000088;
+  }
+  
+  p {
+    font-size: 1.1rem;
+    margin: 10px 0;
+    color: wheat;
+  }
+  
+  /* Contact Link */
+  a {
+    color:beige;
+    text-decoration: none;
+    font-size: larger;
+   
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: rgba(0, 0, 0, 0.6);
+    color:yellow;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-weight: bold;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 2rem;
+    }
+  
+    .about-section {
+      flex-direction: column;
+      padding: 20px 10px;
+    }
+  
+    .about-text {
+      text-align: center;
+      font-size: 1rem;
+    }
+  
+    h2 {
+      font-size: 1.5rem;
+    }
+  
+    p {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    header img {
+      width: 60px;
+      height: 60px;
+    }
+  
+    .about-section img {
+      width: 180px;
+      height: 180px;
+    }
+  
+    h1 {
+      font-size: 1.7rem;
+    }
+  
+    h2 {
+      font-size: 1.3rem;
+    }
+
+  }
+  
